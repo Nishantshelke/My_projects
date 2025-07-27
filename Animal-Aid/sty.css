@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("image/dog-8434226_1920.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; /* Ensure the body covers the viewport height */
+    position: relative; /* Required for absolute positioning */
+}
+
+header, footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 20px;
+}
+
+header h1, footer p {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+    padding-bottom: 60px; /* Adjust this value based on your footer height */
+}
+
+.donate-form {
+    width: 400px; /* Set initial width */
+    position: absolute; /* Position the form absolutely */
+    background-color: rgb(93, 108, 95);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.donate-form h2 {
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+button {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    width: 100px;
+}
+
+button {
+    background-color: #12a507;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e4d232;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.info-container {
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    color: #fff;
+    padding: 20px;
+    border-radius: 250px;
+    position: absolute;
+    top: 100px; /* Adjust as needed */
+    right: 300px; /* Adjust as needed */
+    max-width: 300px; /* Adjust as needed */
+} 
+
+.info-container header h1 {
+    size: 70px;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.info-container p {
+    font-size: 24px;
+    line-height: 1.5; 
+    margin: 0;
+}

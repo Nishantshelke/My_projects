@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animal Rescue</title>
+  <link rel="stylesheet" href="rescue.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Animal Rescue</h1>
+    <form id="rescueForm">
+      <label for="username">Username:</label>
+      <input type="text" id="username" required>
+
+      <label for="mobile">Mobile Number:</label>
+      <input type="tel" id="mobile" pattern="[0-9]{10}" required>
+
+      <label for="picture">Upload Picture:</label>
+      <input type="file" id="picture" accept="image/*" required>
+
+      <button id="shareLocationBtn">Share Live Location</button>
+    </form>
+  </div>
+
+  <script src="rescue.js"></script>
+</body>
+</html>
