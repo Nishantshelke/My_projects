@@ -1,4 +1,4 @@
-🐾 Animal Aid Hub
+🐾 Animal Aid Hub By Nishant Shelke
 A web platform designed to assist injured animals by connecting them with nearby NGOs for quick help and rescue.
 
 🚀 Features
